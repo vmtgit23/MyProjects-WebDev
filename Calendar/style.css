@@ -1,0 +1,125 @@
+body{
+    background-image: -webkit-linear-gradient( bottom right, rgb(11, 118, 126), rgb(188, 255, 161));
+    font-family : montserrat;
+    font-size : 0.8vw;
+}
+
+#box_shadow{
+    position : absolute;
+    top : 20%;
+    left : 23.75%;
+    height : 500px;
+    width : 52%;
+    background-color: black;
+    opacity: 0.05;
+}
+
+#box1{
+    position : absolute;
+    top : 21.75%;
+    left : 23%;
+    height : 500px;
+    width : 22%;
+    background-color : rgb(88, 145, 199);
+}
+
+#box2{
+    position : absolute;
+    top : 21.75%;
+    left : 45%;
+    height: 500px;
+    width : 30.4%;
+    background-color : white;
+}
+
+#title {
+    position : relative;
+    top : 50px;
+    left : 40px;
+    color : white; 
+    font-size : 15px;
+}
+#day {
+    position : relative;
+    top : 205px;
+    left : 40px;
+    color: white;
+    font-size: 35px;
+}
+#date {
+    position : relative;
+    top : 240px;
+    left : 40px;
+    color : white;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 100px;
+}
+#buttons {
+    position : relative;
+    top : 150px;
+    left : 200px;
+    color : white;
+}
+
+button {
+    border-radius: 50%;
+    background-color : rgb(88, 145, 199);
+    border : 0.4px solid white;
+    position: relative;
+    top: 0px;
+    transition: all ease 0.1s;
+}
+button:hover {
+    box-shadow : 3px 3px 5px rgba(139, 135, 135, 0.521), -3px 3px 5px rgba(139, 135, 135, 0.521);
+}
+button:active {
+    box-shadow: 0 3px 0 #00823F;
+    top: 1.5px;
+}
+i {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+table { 
+    position : relative;
+    top : 80px;
+    left : 30px;
+ }
+ .table_day {
+     border : 10px;
+     padding : 12px;
+     text-align : center;
+ }
+
+td {
+    border: 10px;
+    padding: 18px;
+    text-align: center;
+}
+
+td:hover {
+    cursor : default;
+    border-radius: 50%;
+    background-color: rgb(159, 198, 235);
+}
+.table_day:hover {
+    cursor : auto;
+    border-radius : 0%;
+    background-color: white;
+}
+.inactive {
+    opacity : 0.5;
+}

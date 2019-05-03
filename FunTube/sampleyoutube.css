@@ -1,0 +1,206 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: url(bgwallpaper.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+#icon {
+  float:left;
+}
+#funtube {
+  font-weight: bold;
+  float:left;
+}
+
+ul {
+  position: fixed;
+  z-index:1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  float: left;
+  background: rgb(22, 55, 77);
+  width: 215px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  opacity:0.8;
+  margin:0px;
+}
+
+ul li a {
+  display:block;
+  color: white;
+  text-decoration: aqua;
+}
+
+ul li a:hover {
+  background-color:gray;
+}
+
+ul li ul li {
+  display: none;
+  float: initial;
+  opacity: 0.9;
+}
+ul li:hover ul li {
+  display:block;
+}
+
+input[type=text] {
+  position: relative;
+  left:16%;
+  width: 500px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 16px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+  
+input[type=text]:focus {
+  width: 72%;
+}
+
+input[type=submit] {
+  position: relative;
+  left:9.55%;
+  width: 100px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 16px;  
+}
+
+section.row1 {
+  position:relative;
+  left:16%;
+}
+
+section.row2 {
+  position:relative;
+  left:16%;
+}
+
+
+
+
+#modalvideo1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity:0;
+  transition: opacity 400ms linear;
+  pointer-events: none;
+}
+#modalvideo1:target {
+  opacity:1;
+  pointer-events: auto;
+}
+#modalvideo1 > div {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px 20px 13px 20px;
+  border: solid;
+  border-color: black;
+  border-width : 2px;
+  background: rgb(14, 10, 12);
+  border-radius: 10px;
+}	
+
+#modalvideo2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity:0;
+  transition: opacity 400ms linear;
+  pointer-events: none;
+}
+#modalvideo2:target {
+  opacity:1;
+  pointer-events: auto;
+}
+#modalvideo2 > div {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px 20px 13px 20px;
+  border: solid;
+  border-color: black;
+  border-width : 2px;
+  background: rgb(5, 4, 5);
+  border-radius: 10px;
+}	
+
+#modalvideo3 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity:0;
+  
+  transition: opacity 400ms linear;
+  pointer-events: none;
+}
+#modalvideo3:target {
+  opacity:1;
+  pointer-events: auto;
+}
+#modalvideo3 > div {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px 20px 13px 20px;
+  border: solid;
+  border-color: black;
+  border-width : 2px;
+  background: rgb(5, 3, 4);
+  border-radius: 10px;
+}		
+
+#modalvideo4 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity:0;
+  transition: opacity 400ms linear;
+  pointer-events: none;
+}
+#modalvideo4:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+#modalvideo4 > div {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px 20px 13px 20px;
+  border: solid;
+  border-color: black;
+  border-width : 2px;
+  background: rgb(5, 3, 4);
+  border-radius: 10px;
+}	
